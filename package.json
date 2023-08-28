@@ -17,15 +17,15 @@
     },
     "dependencies": {
         "@popperjs/core": "^2.11.6",
-        "blue-admin-vue-components": "^1.0.0",
         "bootstrap": "5.1",
         "bootstrap-select": "^1.13.18",
-        "data-collector-vue-components": "^1.0.0",
-        "fruits-vue-components": "^1.0.0",
+        "bootstrap-vue": "^2.23.1",
+        "electrician-vue-components": "^1.0.0",
         "jquery": "^3.6.1",
         "jquery-ui": "^1.13.2",
         "jquery-ui-bundle": "^1.12.1-migrate",
         "just-clone": "^6.1.1",
+        "multi-range-slider-vue": "^1.1.4",
         "node-sass": "^8.0.0",
         "path": "^0.12.7",
         "popper.js": "^1.16.1",
@@ -39,6 +39,8 @@
         "vue-clickaway": "^2.2.2",
         "vue-loader": "^15.9.8",
         "vue-select": "^3.20.2",
-        "vue-template-compiler": "^2.6.12"
+        "vue-slider-component": "^3.2.24",
+        "vue-template-compiler": "^2.6.12",
+        "vue2-google-maps": "^0.10.7"
     }
 }
