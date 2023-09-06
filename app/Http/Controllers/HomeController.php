@@ -12,7 +12,7 @@ class HomeController extends Controller
         $templateParams = new stdClass;
         $templateParams->language = strtoupper(App::currentLocale());
         $templateParams->current_url = "/home";
-        return DynamicTemplateMethods::getTemplateDynamicPage('electrician_index', $templateParams, 'app');
+        return DynamicTemplateMethods::getTemplateDynamicPage('electrician_welcome', $templateParams, 'app');
     }
 
     public function products() {
@@ -26,7 +26,7 @@ class HomeController extends Controller
         $templateParams = new stdClass;
         $templateParams->language = "RO";
         $templateParams->current_url = "/home";
-        return DynamicTemplateMethods::getTemplateDynamicPage('electrician_index', $templateParams, 'app');
+        return DynamicTemplateMethods::getTemplateDynamicPage('electrician_welcome', $templateParams, 'app');
     }
 
     public function productsRO() {
