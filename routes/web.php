@@ -19,5 +19,3 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('setLanguage')->group(function () {
     LanguageMethods::createGetRouteWithLanguage('/', [HomeController::class, 'home']);
 });
-Route::get('/products', 'App\Http\Controllers\HomeController@products');
-Route::get('/products/RO', 'App\Http\Controllers\HomeController@productsRO');
