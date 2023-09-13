@@ -12,6 +12,11 @@ class HomeController extends Controller
         $templateParams = new stdClass;
         $templateParams->language = strtoupper(App::currentLocale());
         $templateParams->current_url = "/home";
-        return DynamicTemplateMethods::getTemplateDynamicPage('electrician_welcome', $templateParams, 'app');
+        return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
+            'dynamic_web_welcome', 
+            'node_modules/electrician-web-vue-components/src/Templates/Compiled/welcome.json', 
+            $templateParams,
+            [ 'app' ]
+        );
     }
 }
