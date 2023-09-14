@@ -16,7 +16,7 @@ class HomeController extends Controller
         $orderTableInfos = DatabaseInfos::getTableInfos()['orders'];
         $templateParams->contact_form_item_sections = $orderTableInfos->getFormInfos('welcome.contact_form');
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
-            'dynamic_web_welcome', 
+            'electrician_welcome', 
             'node_modules/electrician-web-vue-components/src/Templates/Compiled/welcome.json', 
             $templateParams,
             [ 'app' ]

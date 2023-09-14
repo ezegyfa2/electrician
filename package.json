@@ -18,6 +18,7 @@
     "dependencies": {
         "@popperjs/core": "^2.11.6",
         "bootstrap": "4.6.1",
+        "bootstrap-css-only": "^4.4.1",
         "bootstrap-select": "^1.13.18",
         "bootstrap-vue": "^2.23.1",
         "electrician-vue-components": "^1.0.0",
