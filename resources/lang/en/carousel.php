@@ -2,15 +2,15 @@
 
 return [
     'slide1' => [
-        'title' => 'Villanyszerelés',
-        'content' => 'Megbízható és biztonságos\nmegoldások!',
+        'title' => 'Electrical installation',
+        'content' => 'Reliable and safe solutions!',
     ],
     'slide2' => [
-        'title' => 'Napelemek',
-        'content' => 'Hatékony és fenntartható\nnapelemes rendszerek!',
+        'title' => 'Solar panels',
+        'content' => 'Efficient and sustainable solar systems!',
     ],
     'slide3' => [
-        'title' => 'Automatizálás',
-        'content' => 'Okos megoldások\na mindennapokban!',
+        'title' => 'Automation',
+        'content' => 'Smart solutions in everyday life!',
     ],
 ];
