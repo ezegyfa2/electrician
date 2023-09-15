@@ -25,6 +25,10 @@ mix.webpackConfig({
     }
 });
 
-mix.js('resources/js/app.js', 'public/js')
-    .vue()
-    .sass('resources/sass/app.scss', 'public/css');
+mix.js('resources/js/welcome.js', 'public/js').vue()
+/*if (mix.inProduction()) {
+    mix.copy('./node_modules/helper-vue-components/src/BasicPackages/CompiledBasicPackages.js', 'public/js/compiledBasicPackages.js')
+}
+else {
+    mix.copy('./node_modules/helper-vue-components/src/BasicPackages/CompiledDevBasicPackages.js', 'public/js/compiledBasicPackages.js')
+}*/
