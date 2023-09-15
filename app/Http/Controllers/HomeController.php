@@ -15,15 +15,16 @@ class HomeController extends Controller
         $templateParams->current_url = "/home";
         $orderTableInfos = DatabaseInfos::getTableInfos()['orders'];
         $templateParams->contact_form_item_sections = $orderTableInfos->getFormInfos('welcome.contact_form');
-        return DynamicTemplateMethods::getTemplateDynamicPage('electrician_welcome', $templateParams, [ 'welcome' ], [ 
-            'fontawesome/css/fontawesome.min', 
-            'fontawesome/css/brands.min',
-            'fontawesome/css/solid.min'  ]);
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'electrician_welcome', 
-            'node_modules/electrician-vue-components/src/Templates/Compiled/welcome.json', 
+            'node_modules/electrician-vue-components/src/Welcome/CompiledTemplate.json', 
             $templateParams,
-            [ 'welcome' ]
+            [ 'welcome' ],
+            [ 
+                'fontawesome/css/fontawesome.min', 
+                'fontawesome/css/brands.min',
+                'fontawesome/css/solid.min' 
+            ]
         );
     }
 }
