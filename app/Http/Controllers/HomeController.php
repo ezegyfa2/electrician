@@ -15,9 +15,10 @@ class HomeController extends Controller
         $templateParams->current_url = "/home";
         $orderTableInfos = DatabaseInfos::getTableInfos()['orders'];
         $templateParams->contact_form_item_sections = $orderTableInfos->getFormInfos('welcome.contact_form');
+        
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'electrician_welcome', 
-            'node_modules/electrician-web-vue-components/src/Templates/Compiled/welcome.json', 
+            'node_modules/electrician-vue-components/src/Templates/Compiled/welcome.json', 
             $templateParams,
             [ 'app' ]
         );
