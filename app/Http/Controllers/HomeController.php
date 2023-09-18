@@ -19,7 +19,10 @@ class HomeController extends Controller
             'electrician_welcome', 
             'node_modules/electrician-vue-components/src/Welcome/CompiledTemplate.json', 
             $templateParams,
-            [ 'welcome' ],
+            [ 
+                'layout',
+                'welcome',
+            ],
             [ 
                 'fontawesome/css/fontawesome.min', 
                 'fontawesome/css/brands.min',
