@@ -20,13 +20,13 @@ class HomeController extends Controller
             'node_modules/electrician-vue-components/src/Welcome/CompiledTemplate.json', 
             $templateParams,
             [ 
-                'layout',
                 'welcome',
             ],
             [ 
                 'fontawesome/css/fontawesome.min', 
                 'fontawesome/css/brands.min',
-                'fontawesome/css/solid.min' 
+                'fontawesome/css/solid.min',
+                'bootstrap-vue.min'
             ]
         );
     }
