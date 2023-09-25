@@ -10,14 +10,15 @@ use stdClass;
 class HomeController extends Controller
 {
     public function home() {
-        $templateParams = new stdClass;
-        $templateParams->language = strtoupper(App::currentLocale());
-        $templateParams->current_url = "/home";
-        $orderTableInfos = DatabaseInfos::getTableInfos()['orders'];
-        $templateParams->contact_form_item_sections = $orderTableInfos->getFormInfos('welcome.contact_form');
+        $templateParams = DynamicTemplateMethods::getTemplateLayoutParams();
+        $templateParams->form_item_sections = json_decode(file_get_contents(base_path('app/Templates/contactUsTableInfos.json')));
+        foreach ($templateParams->form_item_sections as $formItemSection) {
+            $formItemSection->data->label = __($formItemSection->data->label);
+            $formItemSection->data->placeholder = __($formItemSection->data->placeholder);
+        }
         return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'electrician_welcome', 
-            'node_modules/electrician-vue-components/src/Welcome/CompiledTemplate.json', 
+            'welcome', 
             $templateParams,
             [ 
                 'welcome',

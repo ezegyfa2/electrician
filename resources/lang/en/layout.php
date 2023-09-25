@@ -2,36 +2,27 @@
 
 return [
     'navbar' => [
-        'title' => 'Electrician',
+        'title' => 'Bartos Electrical',
         'about_us' => 'About us',
-        'our_products' => 'Products',
+        'our_services' => 'Services',
         'button_title' => 'Appointment'
     ],
     'footer' => [
-        'columns' => [
-            'links1' => [
-                'about_us' => 'About us',
-                'privacy_policy' => 'Privacy policy',
-                'contacts' => 'Contacts'
-            ],
-            'links2' => [
-                'our_products' => 'Products',
-                'services' => 'Services'
-            ],
-            'links3' => [
-                'for_companies' => 'For companies',
-                'for_customers' => 'For customers'
-            ],
+        'links' => [
+            'about_us' => 'About us',
+            'privacy_policy' => 'Privacy policy',
+            'contact' => 'Contact',
+            'services' => 'Services',
         ],
         'address' => [
-            'street' => '399 Crowfield Road',
-            'city' => 'Phoenix, Arizona 85012',
-            'email' => 'asff@fdsfsdc.com',
+            'street' => '12 Petőfi street',
+            'city' => 'Csíkszereda, Románia 530223',
+            'email' => 'bartos.electrical@gmail.com',
             'open' => 'Monday-Friday 8:00-17:00',
-            'phone_number' => '+602-926-5809'
+            'phone_number' => '+407-926-5809'
         ],
         'copyright' => [
-            'copy' => 'Electrician @ All Rights Reserved 2023',
+            'copy' => 'Bartos Electrical @ All Rights Reserved 2023',
         ],
     ],
 ];

@@ -2,36 +2,27 @@
 
 return [
     'navbar' => [
-        'title' => 'Villanyszerelő',
+        'title' => 'Bartos Electrical',
         'about_us' => 'Rólunk',
-        'our_products' => 'Termékeink',
+        'our_services' => 'Szolgáltatásaink',
         'button_title' => 'Időpontkérés'
     ],
     'footer' => [
-        'columns' => [
-            'links1' => [
-                'about_us' => 'Rólunk',
-                'privacy_policy' => 'Adatkezelés',
-                'contacts' => 'Kapcsolatok'
-            ],
-            'links2' => [
-                'our_products' => 'Termékeink',
-                'services' => 'Szolgáltatások'
-            ],
-            'links3' => [
-                'for_companies' => 'Cégeknek',
-                'for_customers' => 'Lakossági ügyfeleknek'
-            ],
+        'links' => [
+            'about_us' => 'Rólunk',
+            'services' => 'Szolgáltatások',
+            'privacy_policy' => 'Adatkezelés',
+            'contact' => 'Kapcsolat',
         ],
         'address' => [
-            'street' => '399 Crowfield Road',
-            'city' => 'Phoenix, Arizona 85012',
-            'email' => 'asff@fdsfsdc.com',
+            'street' => 'Petőfi utca, 12',
+            'city' => 'Csíkszereda, Románia 530223',
+            'email' => 'bartos.electrical@gmail.com',
             'open' => 'Hétfő-Péntek 8:00-17:00',
-            'phone_number' => '+602-926-5809'
+            'phone_number' => '+407-926-5809'
         ],
         'copyright' => [
-            'copy' => 'Electrician @ Minden jog fenntartva 2023',
+            'copy' => 'Bartos Electrical @ Minden jog fenntartva 2023',
         ],
     ],
 ];
