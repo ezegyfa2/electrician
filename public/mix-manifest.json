@@ -1,4 +1,7 @@
 {
-    "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/js/basicPackages.js": "/js/basicPackages.js",
+    "/js/welcome.js": "/js/welcome.js",
+    "/app/Templates/Welcome.json": "/app/Templates/Welcome.json",
+    "/css/bootstrap.min.css": "/css/bootstrap.min.css",
+    "/css/bootstrap-vue.min.css": "/css/bootstrap-vue.min.css"
 }
