@@ -1,0 +1,58 @@
+[
+    {
+        "type": "text-input",
+        "data": {
+            "name": "name",
+            "label": "welcome.contact_form.name.label",
+            "default": null,
+            "required": true,
+            "valprimaryFontFamilyation_errors": [],
+            "form_item_type": "input",
+            "type": "text",
+            "maxlength": 255,
+            "minlength": 0,
+            "placeholder": "welcome.contact_form.name.placeholder"
+        }
+    },
+    {
+        "type": "text-input",
+        "data": {
+            "name": "email",
+            "label": "welcome.contact_form.email.label",
+            "default": null,
+            "required": true,
+            "valprimaryFontFamilyation_errors": [],
+            "form_item_type": "input",
+            "type": "email",
+            "maxlength": 255,
+            "minlength": 0,
+            "placeholder": "welcome.contact_form.email.placeholder"
+        }
+    },
+    {
+        "type": "text-input",
+        "data": {
+            "name": "phone",
+            "label": "welcome.contact_form.phone.label",
+            "default": null,
+            "required": true,
+            "valprimaryFontFamilyation_errors": [],
+            "form_item_type": "input",
+            "type": "tel",
+            "maxlength": 15,
+            "minlength": 0,
+            "placeholder": "welcome.contact_form.phone.placeholder"
+        }
+    },
+    {
+        "type": "textarea",
+        "data": {
+            "name": "message",
+            "label": "welcome.contact_form.message.label",
+            "default": null,
+            "required": true,
+            "valprimaryFontFamilyation_errors": [],
+            "placeholder": "welcome.contact_form.message.placeholder"
+        }
+    }
+]
