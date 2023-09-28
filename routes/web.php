@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
 Route::middleware('setLanguage')->group(function () {
+    Route::post('/', [HomeController::class, 'storeContactMessage']);
     LanguageMethods::createGetRouteWithLanguage('/', [HomeController::class, 'home']);
 });

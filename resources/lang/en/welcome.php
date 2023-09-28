@@ -68,6 +68,7 @@ return [
         'message' => [
             'placeholder' => 'Message'
         ],
-        'button_title' => 'Appointment'
+        'button_title' => 'Appointment',
+        'success_message' => 'Your message has been stored. We will respond soon as possible.',
     ]
 ];
