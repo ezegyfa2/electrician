@@ -69,5 +69,6 @@ return [
             'placeholder' => 'Üzenet',
         ],
         'button_title' => 'ÜZENET KÜLDÉSE',
+        'success_message' => 'Az üzenetét eltároltuk. Hamarosan felvesszük önnel a kapcsolatot.',
     ],
 ];
