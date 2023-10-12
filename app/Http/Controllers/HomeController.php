@@ -17,18 +17,15 @@ class HomeController extends Controller
             $formItemSection->data->label = __($formItemSection->data->label);
             $formItemSection->data->placeholder = __($formItemSection->data->placeholder);
         }
-        return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
+        return DynamicTemplateMethods::getTemplateDynamicPage(
             'electrician_welcome', 
-            'welcome', 
+            //'welcome', 
             $templateParams,
             [ 
                 'welcome',
             ],
             [ 
-                'fontawesome/css/fontawesome.min', 
-                'fontawesome/css/brands.min',
-                'fontawesome/css/solid.min',
-                'bootstrap-vue.min'
+                'welcome', 
             ]
         );
     }
