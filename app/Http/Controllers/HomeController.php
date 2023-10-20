@@ -17,9 +17,9 @@ class HomeController extends Controller
             $formItemSection->data->label = __($formItemSection->data->label);
             $formItemSection->data->placeholder = __($formItemSection->data->placeholder);
         }
-        return DynamicTemplateMethods::getTemplateDynamicPage(
+        return DynamicTemplateMethods::getTranslatedTemplateDynamicPage(
             'electrician_welcome', 
-            //'welcome', 
+            'welcome', 
             $templateParams,
             [ 
                 'welcome',
