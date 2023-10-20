@@ -24,11 +24,11 @@ return [
         'sections' => [
             'slide1' => [
                 'title' => 'Okos megoldások',
-                'content' => 'Weboldalunkon okos megoldásokat kínálunk az elektromos szerelés területén, hogy növeljük otthona energiahatékonyságát és biztonságát.',
+                'content' => 'Hatékony megoldások az elektromos szerelés területén, hogy növelje otthona energiahatékonyságát és biztonságát.',
             ],
             'slide2' => [
                 'title' => 'Villanyszerelés',
-                'content' => 'Gyors és precíz munkavégzés legyen szó lakóházról, irodáról\nvagy ipari komplexumról.\nRugalmasan alkalmazkodunk az Ön igényeihez.',
+                'content' => 'Rugalmas, gyors és precíz munkavégzés legyen szó lakóházról, irodáról vagy ipari komplexumról.',
             ],
             'slide3' => [
                 'title' => 'Napelemek telepítése',
