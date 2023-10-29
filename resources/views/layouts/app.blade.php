@@ -15,7 +15,7 @@
 
     <!-- Styles -->
     @foreach ($stylePaths as $stylePath)
-        <link href="{{ asset('css/' . $stylePath . '.css') }}" rel="stylesheet" />
+        <link href="{{ asset('css/' . $stylePath . '.css?version=1.1.1') }}" rel="stylesheet" />
     @endforeach
 </head>
 <body>
