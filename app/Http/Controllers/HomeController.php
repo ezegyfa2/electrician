@@ -25,10 +25,7 @@ class HomeController extends Controller
                 'welcome',
             ],
             [ 
-                'fontawesome/css/fontawesome.min', 
-                'fontawesome/css/brands.min',
-                'fontawesome/css/solid.min',
-                'bootstrap-vue.min'
+                'welcome', 
             ]
         );
     }

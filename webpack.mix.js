@@ -1,6 +1,7 @@
-const mix = require('laravel-mix');
-const path = require('path');
-mix.webpackConfig({
+const mix = require('laravel-mix')
+const path = require('path')
+
+global.currentWebpackConfig = {
     module: {
         rules: [
             {
@@ -10,27 +11,19 @@ mix.webpackConfig({
             {
                 test: /\.scss$/,
                 use: [
-                  'sass-loader'
+                    'sass-loader'
                 ]
             }
         ]
     },
-    resolve: {
-        alias: {
-            "@sass": path.resolve(
-                __dirname,
-                "resources/sass"
-            )
-        }
+    output: {
+        chunkFilename: 'js/[name].bundle.js',
+        publicPath: '/',
     }
-});
+}
+mix.webpackConfig(currentWebpackConfig)
 
 mix.js('resources/js/basicPackages.js', 'public/js').vue()
 mix.js('resources/js/welcome.js', 'public/js').vue()
-mix.copy('node_modules/electrician-vue-components/src/Welcome/CompiledTemplate.json', 'app/Templates/Welcome.json')
-let nodeModulesFolderPath = path.resolve(
-    __dirname,
-    "node_modules"
-)
-mix.copy(nodeModulesFolderPath + '/bootstrap/dist/css/bootstrap.min.css', 'public/css')
-mix.copy(nodeModulesFolderPath + '/bootstrap-vue/dist/bootstrap-vue.min.css', 'public/css')
+mix.sass('resources/sass/welcome.scss', 'public/css/')
+//mix.copy('node_modules/electrician-vue-components/src/Welcome/CompiledTemplate.json', 'app/Templates/Welcome.json')
