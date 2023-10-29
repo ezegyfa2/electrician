@@ -10,7 +10,7 @@
 
     <!-- Scripts -->
     @foreach ($scriptPaths as $scriptPath)
-        <script src="{{ asset('js/' . $scriptPath . '.js') }}" defer></script>
+        <script src="{{ asset('js/' . $scriptPath . '.js?version=1.1.1') }}" defer></script>
     @endforeach
 
     <!-- Styles -->
