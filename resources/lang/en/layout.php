@@ -24,5 +24,6 @@ return [
         'copyright' => [
             'copy' => 'Bartos Electrical @ All Rights Reserved 2023',
         ],
+        'created_by' => 'Created by',
     ],
 ];

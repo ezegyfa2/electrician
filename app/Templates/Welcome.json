@@ -1,0 +1,487 @@
+{
+    "type": "page",
+    "data": {
+        "navigation_bar_section": {
+            "type": "electrician-navigation-bar",
+            "data": {
+                "brand_section": {
+                    "type": "electrician-brand-image",
+                    "data": {
+                        "title": "--layout.navbar.title",
+                        "url": "/",
+                        "image_url": "/assets/img/bolt-lightning-solid.svg",
+                        "image_alt": "Brand Image"
+                    }
+                },
+                "link_sections": [
+                    {
+                        "type": "electrician-navigation-link",
+                        "data": {
+                            "url": "#main_description",
+                            "content": "--layout.navbar.about_us"
+                        }
+                    },
+                    {
+                        "type": "electrician-navigation-link",
+                        "data": {
+                            "url": "#services",
+                            "content": "--layout.navbar.our_services"
+                        }
+                    },
+                    {
+                        "type": "electrician-button-navigation-link",
+                        "data": {
+                            "url": "#contact_us",
+                            "content": "--layout.navbar.button_title"
+                        }
+                    },
+                    {
+                        "type": "electrician-dropdown-navigation-link",
+                        "data": {
+                            "badge_content": "EN",
+                            "dropdown_section": {
+                                "type": "electrician-list-dropdown",
+                                "data": {
+                                    "dropdown_item_sections": [
+                                        {
+                                            "type": "electrician-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://electrician.test/en",
+                                                "content": "EN"
+                                            }
+                                        },
+                                        {
+                                            "type": "electrician-link-dropdown-item",
+                                            "data": {
+                                                "url": "http://electrician.test/hu",
+                                                "content": "HU"
+                                            }
+                                        }
+                                    ],
+                                    "dropdown_link_id": "dropdown15"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "success_message_sections": [],
+        "content_sections": [
+            {
+                "type": "electrician-carousel",
+                "data": {
+                    "slide_sections": [
+                        {
+                            "type": "electrician-zoom-carousel-slide",
+                            "data": {
+                                "background_image_source": "/assets/img/worker-is-cutting-wires-with-lineman-s-pliers-1500x857.jpg",
+                                "content_section": {
+                                    "type": "electrician-carousel-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.carousel.slide1.title",
+                                        "content": "--welcome.carousel.slide1.content"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "electrician-zoom-carousel-slide",
+                            "data": {
+                                "background_image_source": "/assets/img/sunset-nature-provides-renewable-energy-through-solar-power-1500x857.jpg",
+                                "content_section": {
+                                    "type": "electrician-carousel-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.carousel.slide2.title",
+                                        "content": "--welcome.carousel.slide2.content"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "electrician-zoom-carousel-slide",
+                            "data": {
+                                "background_image_source": "/assets/img/businessman-hand-holding-lightbulb-with-glowing-light-creative-smart-thinking-inspiration-1500x857.jpg",
+                                "content_section": {
+                                    "type": "electrician-carousel-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.carousel.slide3.title",
+                                        "content": "--welcome.carousel.slide3.content"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "electrician-description-section",
+                "data": {
+                    "id": "main_description",
+                    "text_content_section": {
+                        "type": "electrician-small-text-content",
+                        "data": {
+                            "title": "--welcome.main_description.title",
+                            "content": "--welcome.main_description.content",
+                            "button_content": "--welcome.main_description.button_content",
+                            "url": "#contact_us",
+                            "added_classes": {
+                                ".content": [
+                                    "mb-0"
+                                ]
+                            }
+                        }
+                    },
+                    "image_url": "/assets/img/male-electrician-works-1500x1000.jpg",
+                    "image_alt": "..."
+                }
+            },
+            {
+                "type": "electrician-skew-carousel",
+                "data": {
+                    "id": "services",
+                    "carousel_section": {
+                        "type": "electrician-small-carousel",
+                        "data": {
+                            "slide_sections": [
+                                {
+                                    "type": "carousel-slide",
+                                    "data": {
+                                        "background_image_source": "/assets/img/blur-man-showing-transparent-light-bulb-1500x857.jpg",
+                                        "content_section": {
+                                            "type": "electrician-small-carousel-small-text-content",
+                                            "data": {
+                                                "title": "--welcome.skew_carousel.sections.slide1.title",
+                                                "content": "--welcome.skew_carousel.sections.slide1.content"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "carousel-slide",
+                                    "data": {
+                                        "background_image_source": "/assets/img/male-electrician-works-switchboard-with-electrical-connecting-cable2-1500x857.jpg",
+                                        "content_section": {
+                                            "type": "electrician-small-carousel-small-text-content",
+                                            "data": {
+                                                "title": "--welcome.skew_carousel.sections.slide2.title",
+                                                "content": "--welcome.skew_carousel.sections.slide2.content"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "carousel-slide",
+                                    "data": {
+                                        "background_image_source": "/assets/img/man-worker-firld-by-solar-panels-1500x857.jpg",
+                                        "content_section": {
+                                            "type": "electrician-small-carousel-small-text-content",
+                                            "data": {
+                                                "title": "--welcome.skew_carousel.sections.slide3.title",
+                                                "content": "--welcome.skew_carousel.sections.slide3.content"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "skew_section": {
+                        "type": "electrician-skew-container",
+                        "data": {
+                            "content_items": [
+                                {
+                                    "content_section": {
+                                        "type": "electrician-skew-text-content-with-icon",
+                                        "data": {
+                                            "title": "--welcome.skew_carousel.sections.slide1.title",
+                                            "content": "--welcome.skew_carousel.sections.slide1.content"
+                                        }
+                                    },
+                                    "background_image": {
+                                        "src": "skewContainer/blurMan",
+                                        "widths": [
+                                            320,
+                                            375,
+                                            425,
+                                            500,
+                                            600
+                                        ]
+                                    }
+                                },
+                                {
+                                    "content_section": {
+                                        "type": "electrician-skew-text-content-with-icon",
+                                        "data": {
+                                            "title": "--welcome.skew_carousel.sections.slide2.title",
+                                            "content": "--welcome.skew_carousel.sections.slide2.content"
+                                        }
+                                    },
+                                    "background_image": {
+                                        "src": "skewContainer/electricianWork",
+                                        "widths": [
+                                            320,
+                                            375,
+                                            425,
+                                            500,
+                                            600
+                                        ]
+                                    }
+                                },
+                                {
+                                    "content_section": {
+                                        "type": "electrician-skew-text-content-with-icon",
+                                        "data": {
+                                            "title": "--welcome.skew_carousel.sections.slide3.title",
+                                            "content": "--welcome.skew_carousel.sections.slide3.content"
+                                        }
+                                    },
+                                    "background_image": {
+                                        "src": "skewContainer/solarPanel",
+                                        "widths": [
+                                            320,
+                                            375,
+                                            425,
+                                            500,
+                                            600
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "type": "section-container",
+                "data": {
+                    "content_sections": [
+                        {
+                            "type": "electrician-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "electrician-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.description.content1.title",
+                                        "content": "--welcome.description.content1.content",
+                                        "button_content": "--welcome.description.content1.button_content",
+                                        "url": "#contact_us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "/assets/img/alternative-energy-ecological-concept-1500x1000.jpg",
+                                "image_alt": "...",
+                                "left_orientation": false
+                            }
+                        },
+                        {
+                            "type": "electrician-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "electrician-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.description.content2.title",
+                                        "content": "--welcome.description.content2.content",
+                                        "button_content": "--welcome.description.content2.button_content",
+                                        "url": "#contact_us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "/assets/img/man-electrical-technician-working-switchboard-with-fuses-uses-tablet-1500x1000.jpg",
+                                "image_alt": "..."
+                            }
+                        },
+                        {
+                            "type": "electrician-description-section",
+                            "data": {
+                                "text_content_section": {
+                                    "type": "electrician-small-text-content",
+                                    "data": {
+                                        "title": "--welcome.description.content3.title",
+                                        "content": "--welcome.description.content3.content",
+                                        "button_content": "--welcome.description.content3.button_content",
+                                        "url": "#contact_us",
+                                        "added_classes": {
+                                            ".content": [
+                                                "mb-0"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "image_url": "/assets/img/male-electrician-works-1500x1000.jpg",
+                                "image_alt": "...",
+                                "left_orientation": false
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "electrician-contact-form",
+                "data": {
+                    "id": "contact_us",
+                    "url": "/",
+                    "title_section": {
+                        "type": "electrician-white-medium-text-content",
+                        "data": {
+                            "title": "--welcome.contact_form.title",
+                            "content": "--welcome.contact_form.subtitle"
+                        }
+                    },
+                    "form_item_sections": [
+                        {
+                            "type": "text-input",
+                            "data": {
+                                "name": "name",
+                                "label": "welcome.contact_form.name.label",
+                                "default": null,
+                                "required": true,
+                                "valprimaryFontFamilyation_errors": [],
+                                "form_item_type": "input",
+                                "type": "text",
+                                "maxlength": 255,
+                                "minlength": 0,
+                                "placeholder": "Name"
+                            }
+                        },
+                        {
+                            "type": "text-input",
+                            "data": {
+                                "name": "email",
+                                "label": "welcome.contact_form.email.label",
+                                "default": null,
+                                "required": true,
+                                "valprimaryFontFamilyation_errors": [],
+                                "form_item_type": "input",
+                                "type": "email",
+                                "maxlength": 255,
+                                "minlength": 0,
+                                "placeholder": "Email"
+                            }
+                        },
+                        {
+                            "type": "text-input",
+                            "data": {
+                                "name": "phone",
+                                "label": "welcome.contact_form.phone.label",
+                                "default": null,
+                                "required": true,
+                                "valprimaryFontFamilyation_errors": [],
+                                "form_item_type": "input",
+                                "type": "tel",
+                                "maxlength": 15,
+                                "minlength": 0,
+                                "placeholder": "Phone number"
+                            }
+                        },
+                        {
+                            "type": "textarea",
+                            "data": {
+                                "name": "message",
+                                "label": "welcome.contact_form.message.label",
+                                "default": null,
+                                "required": true,
+                                "valprimaryFontFamilyation_errors": [],
+                                "placeholder": "Message"
+                            }
+                        }
+                    ],
+                    "button_title": "--welcome.contact_form.button_title"
+                }
+            }
+        ],
+        "footer_section": {
+            "type": "electrician-footer",
+            "data": {
+                "column_sections": [
+                    {
+                        "type": "electrician-list-items-content",
+                        "data": {
+                            "link_sections": [
+                                {
+                                    "type": "electrician-list-item-link",
+                                    "data": {
+                                        "nav_icon": "fas fa-check",
+                                        "nav_url": "#main_description",
+                                        "navitem_title": "--layout.footer.links.about_us"
+                                    }
+                                },
+                                {
+                                    "type": "electrician-list-item-link",
+                                    "data": {
+                                        "nav_icon": "fas fa-check",
+                                        "nav_url": "#contact_us",
+                                        "navitem_title": "--layout.footer.links.contact"
+                                    }
+                                },
+                                {
+                                    "type": "electrician-list-item-link",
+                                    "data": {
+                                        "nav_icon": "fas fa-check",
+                                        "nav_url": "#services",
+                                        "navitem_title": "--layout.footer.links.services"
+                                    }
+                                },
+                                {
+                                    "type": "electrician-list-item-link",
+                                    "data": {
+                                        "nav_icon": "fas fa-check",
+                                        "nav_url": "/",
+                                        "navitem_title": "--layout.footer.links.privacy_policy"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "address": {
+                    "street": "--layout.footer.address.street",
+                    "city": "--layout.footer.address.city",
+                    "email": "--layout.footer.address.email",
+                    "open": "--layout.footer.address.open",
+                    "phone_number": "--layout.footer.address.phone_number"
+                },
+                "copyright": {
+                    "copy": "--layout.footer.copyright.copy"
+                },
+                "created_by": "--layout.footer.created_by",
+                "bottom_right_section": {
+                    "type": "wertically-icon-links",
+                    "data": {
+                        "icon_sections": [
+                            {
+                                "type": "electrician-button-icon-link",
+                                "data": {
+                                    "url": "",
+                                    "icon_class": "fab fa-facebook-f"
+                                }
+                            },
+                            {
+                                "type": "electrician-button-icon-link",
+                                "data": {
+                                    "url": "",
+                                    "icon_class": "fab fa-twitter"
+                                }
+                            },
+                            {
+                                "type": "electrician-button-icon-link",
+                                "data": {
+                                    "url": "",
+                                    "icon_class": "fas fa-envelope"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
