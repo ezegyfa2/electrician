@@ -10,12 +10,12 @@
 
     <!-- Scripts -->
     @foreach ($scriptPaths as $scriptPath)
-        <script src="{{ asset('js/1.1/' . $scriptPath . '.js?version=1.1.1') }}" defer></script>
+        <script src="{{ asset('js/1.2/' . $scriptPath . '.js') }}" defer></script>
     @endforeach
 
     <!-- Styles -->
     @foreach ($stylePaths as $stylePath)
-        <link href="{{ asset('css/1.1/' . $stylePath . '.css?version=1.1.1') }}" rel="stylesheet" />
+        <link href="{{ asset('css/1.2/' . $stylePath . '.css') }}" rel="stylesheet" />
     @endforeach
 </head>
 <body>
