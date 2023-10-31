@@ -26,9 +26,9 @@ global.currentWebpackConfig = {
 }
 mix.webpackConfig(currentWebpackConfig)
 
-//compileAssets(mix, 'electrician-vue-components', [ 'Welcome' ])
+compileAssets(mix, 'electrician-vue-components', [ 'Welcome' ])
 //skewContainerImageGenerator.generate()
-mix.js('resources/js/basicPackages.js', 'public/js/' + version).vue()
-mix.js('resources/js/welcome.js', 'public/js/' + version).vue()
-mix.sass('resources/sass/welcome.scss', 'public/css/' + version)
+//mix.js('resources/js/basicPackages.js', 'public/js/' + version).vue()
+//mix.js('resources/js/welcome.js', 'public/js/' + version).vue()
+//mix.sass('resources/sass/welcome.scss', 'public/css/' + version)
 //mix.copy('node_modules/electrician-vue-components/src/Welcome/CompiledTemplate.json', 'app/Templates/Welcome.json')
