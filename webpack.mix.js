@@ -2,7 +2,7 @@ const mix = require('laravel-mix')
 const path = require('path')
 require('helper-vue-components/AssetCompiler.js')
 const skewContainerImageGenerator = require('./node_modules/electrician-vue-components/src/Welcome/SkewCarousel/SkewContainer/Images/generator.js')
-const version = '1.1'
+const version = '1.2'
 
 global.currentWebpackConfig = {
     module: {

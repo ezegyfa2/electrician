@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[285],{2285:(n,t,e)=>{e.r(t),e.d(t,{default:()=>c});const s={props:{content_sections:{type:Array}}};const c=(0,e(1900).Z)(s,(function(){var n=this,t=n._self._c;return t("section",n._l(n.content_sections,(function(n){return t("dynamic-component",{attrs:{component_infos:n}})})),1)}),[],!1,null,null,null).exports}}]);
+//# sourceMappingURL=285.bundle.js.map
