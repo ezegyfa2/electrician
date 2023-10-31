@@ -24,5 +24,6 @@ return [
         'copyright' => [
             'copy' => 'Bartos Electrical @ Minden jog fenntartva 2023',
         ],
+        'created_by' => 'Készítette a',
     ],
 ];
